@@ -1,0 +1,108 @@
+.card{
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  
+  }
+
+.card-elements{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4rem;
+    
+}
+
+.first-element .extender{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-element .extender-header{
+    width: 100%;
+    margin-left: 5rem;
+}
+.first-element .extender-text{
+    display: flex;
+    line-height: 30px;
+    text-align: end;
+}
+
+.second-element{
+    color : orangered;
+    padding: 2rem 0;
+    line-height: 2;
+}
+
+.card-elements h2{
+    margin-top: 3%;
+    text-decoration: underline;
+    text-align: center;
+}
+.third-element{
+    display: flex;
+}
+
+.third-element .extender{
+    margin-top: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.third-element .extender-text{
+    padding: 1rem 0;
+    display: flex;
+    line-height: 1.5;
+    text-align: start;
+}
+
+@media only screen and (max-width: 550px){
+    .first-element .extender-text{
+        /* width: 100%; */
+        font-size: 16px;
+     
+    }
+    .first-element .extender-header{
+        margin-left: 0;
+        margin-right: 5px;
+    }
+    .third-element{
+        margin-top: 10px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .second-element{
+        font-size: 1rem;
+        padding: 2rem 0;
+        line-height: 2;
+    }
+   
+}
+@media only screen and (max-width: 750px){
+   
+    .third-element{
+        margin-top: 10px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   
+}

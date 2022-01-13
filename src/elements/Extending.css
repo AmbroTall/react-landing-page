@@ -1,0 +1,14 @@
+.line{
+    margin-bottom: 2%;
+    width: 50px;
+    height: 3px;
+    /* padding: 1rem 0; */
+    background-color: gold;
+}
+
+.extender h3{
+    color: orangered;
+}
+ .extender-text{
+     color: var(--color-text)
+ }

@@ -1,0 +1,33 @@
+.subscribe-bg{
+    background-color: orange;
+}
+
+.subscribe{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.subscribe input{
+    background-color: var(--color-footer);
+    color: #fff;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 1rem;
+    width: 60%;
+    outline: none;
+    border: none;
+}
+
+.subscribe button{
+    background-color: tomato;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    color: var(--color-text);
+    font-weight: bold;
+}

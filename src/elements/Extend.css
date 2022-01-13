@@ -1,0 +1,36 @@
+.blog-items{
+    color: var(--color-text);
+    padding: 5px 0;
+    text-align: start;
+    padding-left: 5px;
+}
+
+.blog-items p{
+    font-size: 12px;
+}
+.last{
+    padding-top: 4rem;
+}
+
+.card-blog{
+    background-color: var(--color-bg);
+    width: 220px;
+    height: 300px;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+}
+
+
+
+
+.img-card-blog{
+    width: 220px;
+    /* height: 600px; */
+}
+
+.img-card-blog img{
+    width: 218px;
+    /* height: 300px; */
+    object-fit: contain;
+    border-radius: 5px;
+}
